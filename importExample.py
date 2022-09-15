@@ -3,6 +3,8 @@ import matplotlib.image as image
 
 img = image.imread('./assets/starwars.jpeg')
 
-img_plot = pyplot.imshow(img)
+pyplot.imshow(img)
+pyplot.show()
+
 
 print(img_plot)

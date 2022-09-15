@@ -24,3 +24,5 @@ img_blue = './assets/Landscape-BW.jpeg'
 image = combine_images(img_red, img_green, img_blue)
 
 img_plot = pyplot.imshow(image)
+
+pyplot.show()
