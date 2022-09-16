@@ -43,6 +43,6 @@ axelPrecipitation.set_ylabel("Precipitation", color=presipitation_color)
 
 axel.legend()
 
-figure.savefig('./assets/out/temperatureCustomColor.png')
+figure.savefig('./assets/out/figureColor.png')
 
-show_image('./assets/out/temperatureCustomColor.png')
+show_image('./assets/out/figureColor.png')
